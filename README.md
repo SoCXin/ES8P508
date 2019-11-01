@@ -1,30 +1,7 @@
-﻿# [Eagle](https://github.com/mcuyun/Eagle) 
+﻿# [EAGLE](https://github.com/sochub/EAGLE) 
+[![sites](SoC/qitas.png)](http://www.qitas.cn) 
+#### 父级：[EDA](https://github.com/sochub/EDA
 
-Eagle开发工具相关
+Autodesk [EAGLE](https://github.com/sochub/EAGLE) 是一个商业软件，在有限定下可以免费试用，之前一些开源的硬件工程试用该平台开发
 
-[![sites](mcuyun/mcuyun.png)](http://www.mcuyun.com)
-
-#### 更多[EDA](https://github.com/mcuyun/EDA) 
-
----
-
-## [简介](https://github.com/mcuyun/Eagle/wiki) 
-
-包括Eagle工具的相关资料
-
-
-## [组成](https://github.com/mcuyun/Eagle/wiki) 
-
-#### [tutorials](https://github.com/mcuyun/Eagle/tutorials) 
-
-#### [samples](https://github.com/mcuyun/Eagle/samples) 
-
-#### [EagleLibs](https://github.com/mcuyun/EagleLibs) 
-
-相关的库文件
-
----
-
-###  [嵌入式开发云](http://www.mcuyun.com)
-###  qitas@qitas.cn
-###  2018-12-4
+###  [SoC资源平台](http://www.qitas.cn)
