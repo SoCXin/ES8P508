@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{cdc591de-04b0-4bbe-8a91-7f68af744ae1}</ProjectGuid>
+    <ProjectType>HR32Bit</ProjectType>
+    <ChipType>ES8P508FJLK</ChipType>
+    <TargetPath>.\Obj\</TargetPath>
+    <GCCOptimizationSelect>O0</GCCOptimizationSelect>
+    <GCCCExtraOption>--bitband</GCCCExtraOption>
+    <GCCCDefine>
+    </GCCCDefine>
+    <GCCCUndefine>
+    </GCCCUndefine>
+    <GCCCInclude>..\..\..\..\Library\Include,..\..\..\..\CMSIS,..\PlatForm,..\APP</GCCCInclude>
+    <AssemblyName>UART_demo</AssemblyName>
+    <Name>UART_demo</Name>
+    <RootNamespace>UART_demo</RootNamespace>
+    <ToolChain>Dorado v1.0.0.3</ToolChain>
+    <ChipConfig>FFFFFFFF284CD7B3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFF00</ChipConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>debug\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Filter Include="StartUp" />
+    <Filter Include="CMSIS" />
+    <Filter Include="PlatForm" />
+    <Filter Include="Library" />
+    <Filter Include="APP" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\..\CMSIS\system_ES8P508.c">
+      <SubType>Code</SubType>
+      <Filter>CMSIS</Filter>
+    </Compile>
+    <Compile Include="..\..\..\..\MDK_StartUp\startup_ES8P508.s">
+      <SubType>Code</SubType>
+      <Filter>StartUp</Filter>
+    </Compile>
+    <Compile Include="..\PlatForm\irqhandler.c">
+      <SubType>Code</SubType>
+      <Filter>PlatForm</Filter>
+    </Compile>
+    <Compile Include="..\..\..\..\Library\Source\lib_adc.c">
+      <SubType>Code</SubType>
+      <Filter>Library</Filter>
+    </Compile>
+    <Compile Include="..\..\..\..\Library\Source\lib_flashiap.c">
+      <SubType>Code</SubType>
+      <Filter>Library</Filter>
+    </Compile>
+    <Compile Include="..\..\..\..\Library\Source\lib_gpio.c">
+      <SubType>Code</SubType>
+      <Filter>Library</Filter>
+    </Compile>
+    <Compile Include="..\..\..\..\Library\Source\lib_iic.c">
+      <SubType>Code</SubType>
+      <Filter>Library</Filter>
+    </Compile>
+    <Compile Include="..\..\..\..\Library\Source\lib_printf.c">
+      <SubType>Code</SubType>
+      <Filter>Library</Filter>
+    </Compile>
+    <Compile Include="..\..\..\..\Library\Source\lib_scs.c">
+      <SubType>Code</SubType>
+      <Filter>Library</Filter>
+    </Compile>
+    <Compile Include="..\..\..\..\Library\Source\lib_scu.c">
+      <SubType>Code</SubType>
+      <Filter>Library</Filter>
+    </Compile>
+    <Compile Include="..\..\..\..\Library\Source\lib_spi.c">
+      <SubType>Code</SubType>
+      <Filter>Library</Filter>
+    </Compile>
+    <Compile Include="..\..\..\..\Library\Source\lib_timer.c">
+      <SubType>Code</SubType>
+      <Filter>Library</Filter>
+    </Compile>
+    <Compile Include="..\..\..\..\Library\Source\lib_uart.c">
+      <SubType>Code</SubType>
+      <Filter>Library</Filter>
+    </Compile>
+    <Compile Include="..\..\..\..\Library\Source\lib_wdt.c">
+      <SubType>Code</SubType>
+      <Filter>Library</Filter>
+    </Compile>
+    <Compile Include="..\APP\main.c">
+      <SubType>Code</SubType>
+      <Filter>APP</Filter>
+    </Compile>
+    <Compile Include="..\APP\uart.c">
+      <SubType>Code</SubType>
+      <Filter>APP</Filter>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(registry:HKEY_CURRENT_USER\Software\ICHAIER\HRIDE4.0\1.0_Config\MSBuild\SafeImports@HRCC)" />
+</Project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\RTC_Project.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\..\RTC_Interrupt_demo\IAR_Project\RTC_Project.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>
