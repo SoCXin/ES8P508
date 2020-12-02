@@ -1,7 +1,29 @@
-﻿# [EAGLE](https://github.com/sochub/EAGLE) 
-[![sites](SoC/qitas.png)](http://www.qitas.cn) 
-#### 父级：[EDA](https://github.com/sochub/EDA)
+﻿# [ES8P508](https://github.com/SoCXin/ES8P508)
 
-Autodesk [EAGLE](https://www.autodesk.com/products/eagle/overview) 是一个商业软件，有限定免费版本和试用，之前一些开源的硬件工程使用该平台进行开发，当前开源和免费推荐使用[kicad](https://github.com/sochub/kicad)
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-###  [SoC资源平台](http://www.qitas.cn)
+#### [Vendor](https://github.com/SoCXin/Vendor) ：[Eastsoft](http://www.essemi.com/)
+#### [Core](https://github.com/SoCXin/Cortex)：[Cortex M0](https://github.com/SoCXin/CM0)
+#### [Level](https://github.com/SoCXin/Level) ：48MHz * 0.95DMIPS/MHz
+
+## [ES8P508简介](https://github.com/SoCXin/ES8P508/wiki)
+
+[ES8P508](https://github.com/SoCXin/ES8P508)拥有 6 路 UART 通信接口，128K+24K 存储方案，40mA电流IO
+
+[![sites](docs/ES8P508.png)](http://www.essemi.com/product/59.html)
+
+#### 关键特性
+
+* UART x 6
+* 宽电压 2.2～5.5V
+* 128位 AES
+
+### [资源收录](https://github.com/SoCXin)
+
+* [文档](docs/)
+* [资源](src/)
+
+### [选型建议](https://github.com/SoCXin)
+
+[ES8P508](https://github.com/SoCXin/ES8P508)拥有RTC,AES等多种实用外设，多串口性价比高，支持AliOS
+###  [SoC芯平台](http://www.SoC.Xin)
