@@ -4,7 +4,7 @@
 
 #### [Vendor](https://github.com/SoCXin/Vendor) ：[Eastsoft](http://www.essemi.com/)
 #### [Core](https://github.com/SoCXin/Cortex)：[Cortex M0](https://github.com/SoCXin/CM0)
-#### [Level](https://github.com/SoCXin/Level) ：48MHz * 0.95DMIPS/MHz
+#### [Level](https://github.com/SoCXin/Level) ：48 MHz * 0.95 DMIPS/MHz
 
 ## [ES8P508简介](https://github.com/SoCXin/ES8P508/wiki)
 
@@ -26,4 +26,5 @@
 ### [选型建议](https://github.com/SoCXin)
 
 [ES8P508](https://github.com/SoCXin/ES8P508)拥有RTC,AES等多种实用外设，多串口性价比高，支持AliOS
-###  [SoC芯平台](http://www.SoC.Xin)
+
+###  [SoC.芯](http://www.SoC.Xin)

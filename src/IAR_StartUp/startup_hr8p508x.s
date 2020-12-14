@@ -1,6 +1,6 @@
 ;*******************************************************************************
 ; *file       : startup_HR8P506.s
-; *description: HR8P506 Device Startup File for IAR8.3
+; *description: ES8P508 Device Startup File for IAR8.3
 ; *author     : Eastsoft MCU Software Team
 ; *version    : V0.01
 ; *data       : 8/24/2018
@@ -80,7 +80,7 @@ __vector_table
         DCD     SPI0_IRQHandler           ;46, SPI0 IRQHandler
         DCD     I2C0_IRQHandler           ;47, I2C0 IRQHandler
 
-        
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
 ;; Default interrupt handlers.
@@ -94,7 +94,7 @@ Reset_IRQHandler
         BLX     R0
         LDR     R0, =__iar_program_start
         BX      R0
-        
+
         PUBWEAK NMI_IRQHandler
         SECTION .text:CODE:NOROOT:REORDER(1)
 NMI_IRQHandler
@@ -269,6 +269,6 @@ I2C0_IRQHandler
         SECTION .text:CODE:NOROOT:REORDER(1)
 CCM_IRQHandler
         B CCM_IRQHandler
-                
+
         END
 ;************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE*****
