@@ -14,7 +14,7 @@ extern uint16_t g_200ms_cnt;
 extern uint16_t g_adc_data;
 extern uint8_t g_adc_flag;
 
-/************ÖĞ¶Ïº¯ÊıÉùÃ÷***********/
+
 void NMI_IRQHandler(void);
 void HardFault_IRQHandler(void);
 void SVC_IRQHandler(void);

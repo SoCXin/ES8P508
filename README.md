@@ -20,11 +20,12 @@
 
 ### [资源收录](https://github.com/SoCXin)
 
-* [文档](docs/)
-* [资源](src/)
+* [参考文档](docs/)
+* [参考资源](src/)
+* [参考工程](project/)
 
 ### [选型建议](https://github.com/SoCXin)
 
-[ES8P508](https://github.com/SoCXin/ES8P508)拥有RTC,AES等多种实用外设，多串口性价比高，支持AliOS
+[ES8P508](https://github.com/SoCXin/ES8P508)拥有RTC,AES等多种实用外设，多达6个串口
 
-###  [SoC.芯](http://www.SoC.Xin)
+###  [www.SoC.xin(芯)](http://www.SoC.Xin)
